@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="config.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ud.h" />
+    <ClInclude Include="Keybind.h" />
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="Print.hpp" />
+    <ClInclude Include="um.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="animal.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="dog.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="enc.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="xstring.h">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="Skicript.hpp">
+      <Filter>Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.h" />
+    <ClInclude Include="AUTH\auth.hpp" />
+    <ClInclude Include="images.h" />
+    <ClInclude Include="directx9\d3dx9.h" />
+    <ClInclude Include="directx9\d3dx9anim.h" />
+    <ClInclude Include="directx9\d3dx9core.h" />
+    <ClInclude Include="directx9\d3dx9effect.h" />
+    <ClInclude Include="directx9\d3dx9math.h" />
+    <ClInclude Include="directx9\d3dx9mesh.h" />
+    <ClInclude Include="directx9\d3dx9shader.h" />
+    <ClInclude Include="directx9\d3dx9shape.h" />
+    <ClInclude Include="directx9\d3dx9tex.h" />
+    <ClInclude Include="directx9\d3dx9xof.h" />
+    <ClInclude Include="Protection\junky.h" />
+    <ClInclude Include="Protection\driverfakeload.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="resource3.h" />
+    <ClInclude Include="librarys.hpp" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="xor.hpp" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="directx9\d3dx11tex.h" />
+    <ClInclude Include="directx9\d3dx11.h" />
+    <ClInclude Include="directx9\d3dx11async.h" />
+    <ClInclude Include="directx9\d3dx11core.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{89d64466-55af-43c5-a8af-5eea6a5f52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{c3ea2088-a3ad-41bf-b883-8ddf92287b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AUTH">
+      <UniqueIdentifier>{d1241873-6308-4959-8b9b-0898f87e34ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protection">
+      <UniqueIdentifier>{b449392d-54f4-489e-b02b-ba7b1b1f8165}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="AUTH\libcurl.lib">
+      <Filter>AUTH</Filter>
+    </Library>
+    <Library Include="AUTH\library_x64.lib">
+      <Filter>AUTH</Filter>
+    </Library>
+    <Library Include="directx9\d3dx9.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="directx9\d3dx9math.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="um.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="vane.cc.ico" />
+  </ItemGroup>
+</Project>
